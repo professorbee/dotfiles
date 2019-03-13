@@ -1,0 +1,10 @@
+source "%val{config}/plugins/plug.kak/rc/plug.kak"
+plug "andreyorst/plug.kak" noload
+plug "andreyorst/fzf.kak"
+plug "delapouite/kakoune-livedown" load %{livedown.kak}
+plug "alexherbo2/auto-pairs.kak"
+plug "TeddyDD/kakoune-edit-or-dir"
+
+unalias global e edit
+alias global e edit-or-dir
+alias global x write-quit
