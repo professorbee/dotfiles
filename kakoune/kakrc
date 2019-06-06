@@ -9,3 +9,5 @@ plug "WhatNodyn/kakoune-wakatime" load %{wakatime.kak}
 unalias global e edit
 alias global e edit-or-dir
 alias global x write-quit
+
+face global MenuBackground black,white
