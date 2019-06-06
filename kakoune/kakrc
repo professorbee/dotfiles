@@ -4,6 +4,7 @@ plug "andreyorst/fzf.kak"
 plug "delapouite/kakoune-livedown" load %{livedown.kak}
 plug "alexherbo2/auto-pairs.kak"
 plug "TeddyDD/kakoune-edit-or-dir"
+plug "WhatNodyn/kakoune-wakatime" load %{wakatime.kak}
 
 unalias global e edit
 alias global e edit-or-dir
