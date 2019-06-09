@@ -1,3 +1,5 @@
+printf "Exporting environment variable"
+export DOTFILES=`realpath .`
 printf "\033[32mLinking: \033[0mkakrc\n"
 rm $HOME/.config/kak/kakrc
 ln -s $HOME/dotfiles/kakoune/kakrc $HOME/.config/kak/kakrc
